@@ -1,0 +1,68 @@
+body {
+    font-family: 'Gaegu', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+.gugi-font {
+    font-family: 'Gaegu', cursive;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffe2c1;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+/* 네비게이션 */
+.nav-link:hover,
+.nav-link.active {
+    color: #facc86c7 !important;
+}
+
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe-card img {
+    width: 150;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card a {
+    margin: 10px 0;
+}
+
+.recipe-card h3 {
+    margin: 10px 0;
+}
+
+
+.recipe-card p {
+    margin: 0;
+}
